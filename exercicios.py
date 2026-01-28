@@ -9,8 +9,15 @@ import math
 # soma = int(num_01) + int(num_02)
 # print(soma)
 
-
 # 2. Crie um programa que receba um número do usuário e calcule o resto da divisão desse número por 5.
+
+num_01 = input("Insira um número: ")
+resto = int(num_01) % 5
+print(f'O resto da divisão de {num_01} por 5 é: {resto}')
+
+
+
+
 # 3. Desenvolva um programa que multiplique dois números fornecidos pelo usuário e mostre o resultado.
 # 4. Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
 
