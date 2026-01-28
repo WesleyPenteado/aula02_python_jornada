@@ -3,6 +3,13 @@ import math
 # #### Inteiros (`int`)
 
 # 1. Escreva um programa que soma dois números inteiros inseridos pelo usuário.
+
+# num_01 = input("Insira o primeiro número inteiro: ")
+# num_02 = input("Insira o segundo número inteiro: ")
+# soma = int(num_01) + int(num_02)
+# print(soma)
+
+
 # 2. Crie um programa que receba um número do usuário e calcule o resto da divisão desse número por 5.
 # 3. Desenvolva um programa que multiplique dois números fornecidos pelo usuário e mostre o resultado.
 # 4. Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
@@ -34,9 +41,9 @@ import math
 # 13. Desenvolva um programa que peça ao usuário para inserir uma frase e, em seguida, imprima esta frase sem espaços em branco no início e no final.
 # 14. Faça um programa que peça ao usuário para digitar uma data no formato "dd/mm/aaaa" e, em seguida, imprima o dia, o mês e o ano separadamente.
 
-data = input("Insira uma data no formato dd/mm/aaaa: ")
-dia, mes, ano = data.split("/")
-print(f"Dia: {dia}, Mês: {mes}, Ano: {ano}")
+# data = input("Insira uma data no formato dd/mm/aaaa: ")
+# dia, mes, ano = data.split("/")
+# print(f"Dia: {dia}, Mês: {mes}, Ano: {ano}")
 
 
 # 15. Escreva um programa que concatene duas strings fornecidas pelo usuário.
