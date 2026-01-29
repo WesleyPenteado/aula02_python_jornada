@@ -2,6 +2,7 @@
 
 print("Bem-vindo ao sistema de cálculo de bônus salarial! \n" )
 
+# Nome de usuário
 nome = input("Digite seu nome: ")
 
 # Verificando erros na string
@@ -15,8 +16,9 @@ if nome.isspace():
     print("Erro: Você digitou só espaço. Por favor, insira um nome válido.")
     exit()
 
-
+#Informe salário
 salario = input("Digite o valor do seu salário: ")
+
 bonus = input("Digite o valor do seu bônus : ")
 constante_bonus = 1000
 
