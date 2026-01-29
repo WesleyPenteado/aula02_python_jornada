@@ -252,17 +252,17 @@ import math
 
 # 25: Conversão de Tipo com Validação
 
-print("Seja bem-vindo ao conversor de tipos com validação!")
+# print("Seja bem-vindo ao conversor de tipos com validação!")
 
-entrada = input("\n Insira uma lista de números separados por vírgulas: ")
-valores_str = entrada.split(",")
-lista_valores = []
-try:
-    for num in valores_str:
-        lista_valores.append(int(num.strip()))
-    print(f"\n A lista convertida para inteiros é: {lista_valores}")
-except ValueError:
-    print("\n Entrada inválida. Por favor, insira números válidos separados por vírgulas.")
+# entrada = input("\n Insira uma lista de números separados por vírgulas: ")
+# valores_str = entrada.split(",")
+# lista_valores = []
+# try:
+#     for num in valores_str:
+#         lista_valores.append(int(num.strip()))
+#     print(f"\n A lista convertida para inteiros é: {lista_valores}")
+# except ValueError:
+#     print("\n Entrada inválida. Por favor, insira números válidos separados por vírgulas.")
 
 
 
